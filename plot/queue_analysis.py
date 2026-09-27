@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from compare_policies import evaluate_policy
+from experiment.compare_policies import evaluate_policy
 
 rule_result = evaluate_policy(
     policy="rule",

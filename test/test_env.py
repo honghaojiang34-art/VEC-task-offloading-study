@@ -1,4 +1,4 @@
-from simple_vec_env import SimpleVECEnv
+from env.simple_vec_env import SimpleVECEnv
 import random
 env = SimpleVECEnv()
 
